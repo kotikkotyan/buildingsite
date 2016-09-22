@@ -57,3 +57,32 @@ nav a {
 div {
 	border: 1px solid black;
 }
+
+.logo{
+
+	color: black;
+	float: left;
+	height: 100%;
+	width: 370px;
+	margin-left: 50px;
+
+}
+footer{
+
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #fff;
+
+}
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: black;
+  background-color: #fff;
+}
