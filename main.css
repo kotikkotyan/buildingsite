@@ -28,7 +28,7 @@ nav a {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 250px;
+  min-width: 20%;
   max-height: 650px;
   overflow-y: none;
   opacity: 0;
@@ -49,7 +49,7 @@ nav a {
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
   color: black;
-  min-width: 250px;
+  width: 100%;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
