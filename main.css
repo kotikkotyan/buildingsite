@@ -17,9 +17,18 @@ nav a {
 	
 	float: left;
 }
-
+@media only screen and (max-width: 992px){
+  .social_links{
+    display: none;
+  }
+  .logo {
+    float: right !important;
+    margin-right: 32%;
+    margin-left: 0% !important;
+  }
+}
 .dropdown_menu {
-	margin-left: 50px;
+	margin-left: 3%;
   height: 100%;
   float: left;
 }
@@ -72,7 +81,6 @@ div {
   float: right;
   height: 100%;
   margin-right: 3%;
-
 }
 
 .social_links a {
