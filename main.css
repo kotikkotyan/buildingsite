@@ -20,6 +20,8 @@ nav a {
 
 .dropdown_menu {
 	margin-left: 50px;
+  height: 100%;
+  float: left;
 }
 .dropdown-button {
 	height: 64px;
@@ -61,12 +63,26 @@ div {
 .logo{
 
 	color: black;
-	float: left;
-	height: 100%;
-	width: 370px;
-	margin-left: 50px;
+  float: left;
+  height: 100%;
+  width: 35%;
+  margin-left: 27%;
+}
+.social_links {
+  float: right;
+  height: 100%;
+  margin-right: 3%;
 
 }
+
+.social_links a {
+  color: black;
+  font-size: 16px;
+  border-right: 1px solid black;
+  float: none;
+  padding: 0px 15px;
+}
+
 footer{
 
 	position: fixed;
