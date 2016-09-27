@@ -24,6 +24,10 @@
 		return false;
 	});
 
+	$(".menu a.homebutton").click(function(){
+		$(".menu").slideUp();
+	});
+
 
 	$(window).resize(function(){
 		if ($(window).width() <= 769){	
@@ -85,4 +89,3 @@
 
 
 })(window, jQuery);
-
