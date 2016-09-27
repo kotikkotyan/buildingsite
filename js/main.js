@@ -20,7 +20,7 @@
 		id = id.split('-');
 		$("#menu-container .content").hide();
 		$("#menu-container .info").hide();
-		$("#menu-container #menu-"+id[1]).addClass("animated fadeInDown").show();
+		$("#menu-container #menu-"+id[1]).addClass("animated fadeIn").show();
 		return false;
 	});
 
