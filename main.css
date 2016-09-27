@@ -17,11 +17,17 @@ nav a {
 	
 	float: left;
 }
+.logo h1{
+  font-size: 56px;
+  line-height: 110%;
+  margin: 0px 0 0px 0;
+}
+}
 
 .dropdown_menu {
 	margin-left: 50px;
-  height: 100%;
-  float: left;
+	height: 100%;
+ 	float: left;
 }
 .dropdown-button {
 	height: 64px;
