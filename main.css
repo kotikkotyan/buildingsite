@@ -17,18 +17,9 @@ nav a {
 	
 	float: left;
 }
-@media only screen and (max-width: 992px){
-  .social_links{
-    display: none;
-  }
-  .logo {
-    float: right !important;
-    margin-right: 32%;
-    margin-left: 0% !important;
-  }
-}
+
 .dropdown_menu {
-	margin-left: 3%;
+	margin-left: 50px;
   height: 100%;
   float: left;
 }
@@ -39,7 +30,7 @@ nav a {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 13%;
+  min-width: 150px;
   max-height: 650px;
   overflow-y: none;
   opacity: 0;
@@ -73,12 +64,10 @@ div {
 }
 
 .logo{
-
 	color: black;
   float: left;
   height: 100%;
-  width: 35%;
-  margin-left: 27%;
+  width: 100%;
 }
 .social_links {
   float: right;
@@ -137,4 +126,10 @@ footer.page-footer .footer-copyright {
 .foto_container {
   height: 400px;
   width: 100%;
+}
+@media only screen and (max-width: 992px){
+  .social_links{
+    display: none;
+  }
+
 }
