@@ -39,7 +39,7 @@ nav a {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 14%;
+  min-width: 13%;
   max-height: 650px;
   overflow-y: none;
   opacity: 0;
@@ -67,6 +67,9 @@ nav a {
 }
 div {
 	border: 1px solid black;
+}
+.container {
+  height: 100%;
 }
 
 .logo{
@@ -130,4 +133,8 @@ footer.page-footer .footer-copyright {
     bottom: 50px;
     margin: 0;
     visibility: hidden;
+}
+.foto_container {
+  height: 400px;
+  width: 100%;
 }
